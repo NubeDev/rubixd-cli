@@ -1,13 +1,13 @@
 [package]
-name = "blockd-cli"
+name = "rubixd-cli"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.88"
-description = "Remote management CLI for the blockd supervisor daemon"
+description = "Remote management CLI for the rubixd supervisor daemon"
 publish = false
 
 [[bin]]
-name = "blockd-cli"
+name = "rubixd-cli"
 path = "src/main.rs"
 
 [dependencies]

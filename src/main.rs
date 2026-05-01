@@ -1,4 +1,4 @@
-//! `blockd-cli` — remote management CLI for the blockd supervisor daemon.
+//! `rubixd-cli` — remote management CLI for the rubixd supervisor daemon.
 //!
 //! Entry point: parse the command tree with clap, build a [`Client`], dispatch
 //! to the correct `cmd::*` function, and print the result with [`output`].
@@ -11,11 +11,11 @@ mod output;
 use anyhow::Result;
 use clap::{Parser, Subcommand};
 
-/// Remote management CLI for the blockd supervisor daemon.
+/// Remote management CLI for the rubixd supervisor daemon.
 #[derive(Debug, Parser)]
-#[command(name = "blockd-cli", version, about)]
+#[command(name = "rubixd-cli", version, about)]
 pub struct Cli {
-    /// blockd API base URL.
+    /// rubixd API base URL.
     #[arg(long, env = "BLOCKD_URL", global = true, default_value = "http://127.0.0.1:9999")]
     pub url: String,
 

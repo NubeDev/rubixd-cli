@@ -1,4 +1,4 @@
-//! `blockd-cli tls fingerprint` — `GET /api/v1/tls/fingerprint`.
+//! `rubixd-cli tls fingerprint` — `GET /api/v1/tls/fingerprint`.
 //!
 //! Reports the LAN-mode TLS certificate fingerprint for out-of-band pinning.
 //! Requires the owner token (G1).

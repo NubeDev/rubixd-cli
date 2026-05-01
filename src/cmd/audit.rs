@@ -1,4 +1,4 @@
-//! `blockd-cli audit [--limit N]` — `GET /api/v1/audit`.
+//! `rubixd-cli audit [--limit N]` — `GET /api/v1/audit`.
 //!
 //! Tails the daemon audit log. Requires the owner token (G1).
 

@@ -1,4 +1,4 @@
-//! `blockd-cli update accept|skip|rollback` — `/api/v1/update/*`.
+//! `rubixd-cli update accept|skip|rollback` — `/api/v1/update/*`.
 //!
 //! All three verbs require the owner token (G1).
 

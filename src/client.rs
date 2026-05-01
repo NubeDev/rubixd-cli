@@ -110,7 +110,7 @@ impl Client {
                 .await
                 .with_context(|| format!("deserialising response from {path}"))
         } else {
-            // Try to extract the `"error"` field blockd always includes.
+            // Try to extract the `"error"` field rubixd always includes.
             let api_msg: Option<String> = resp
                 .json::<Value>()
                 .await

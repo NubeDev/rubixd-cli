@@ -1,4 +1,4 @@
-//! `blockd-cli status` — `GET /api/v1/status`.
+//! `rubixd-cli status` — `GET /api/v1/status`.
 //!
 //! No auth required (G0) when connecting to the loopback listener.
 
@@ -17,7 +17,7 @@ pub async fn run(client: &Client, fmt: Format) -> Result<()> {
         let active_slot = output::str_field(v, "active_slot");
         let version = output::str_field(v, "version");
 
-        println!("blockd version  : {version}");
+        println!("rubixd version  : {version}");
         println!("claimed         : {claimed}");
         println!("can_claim       : {can_claim}");
         println!("active_slot     : {active_slot}");

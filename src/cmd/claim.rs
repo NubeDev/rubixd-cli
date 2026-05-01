@@ -1,4 +1,4 @@
-//! `blockd-cli claim <token> --owner <name>` — `POST /api/v1/token/claim`.
+//! `rubixd-cli claim <token> --owner <name>` — `POST /api/v1/token/claim`.
 //!
 //! One-shot bootstrap: presents the `claim_token` from the device sticker and
 //! receives the `owner_token` in the response. Store the returned token safely.
